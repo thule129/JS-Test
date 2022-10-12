@@ -1,4 +1,4 @@
-# js-test
+# Bài test Javascript sử dụng VueJs
 
 ## Project setup
 ```
