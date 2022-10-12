@@ -1,0 +1,16 @@
+@import url('../styles/button.css');
+@import url('../styles/dropdown.css');
+@import url('../assets/fontawesome-free-6.2.0-web/css/all.min.css');
+@import url('../styles/checkbox.css');
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.scrollable::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #cdd3d6;
+    border-radius: 1px;
+}

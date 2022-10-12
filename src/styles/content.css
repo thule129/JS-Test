@@ -1,0 +1,91 @@
+.content{
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+    .content .content-header{
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        color: #1d2c53;
+    }
+    .content .filter-bar{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .content .filter-bar .dropdown-holder{
+            width: 100px;
+            height: 100%;
+        }
+    .content .select-bar{
+        width: 100%;
+        background-color: #fff;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+        .content .select-bar .select-list{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content .select-bar .select-list .check-item{
+            display: flex;
+            flex-direction: row;
+            margin: 15px 100px 0 0;
+        }
+        .content .select-bar .select-list .check-item .check-item-name{
+            margin-left: 10px;
+            color: #1d2c53;
+        }
+    .content .products-list{
+        width: 100%;
+        height: calc(100% - 54.4px - 53px - 15px);
+        margin-top: 15px;
+        overflow: auto;
+    }
+        .content .products-list .products-list-holder{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 200px);
+            grid-gap: 2em;
+            justify-content: space-between;
+        }
+        .content .products-list .product{
+            width: 200px;
+            height: fit-content;
+            background-color: #fff;
+            padding: 20px 15px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+            .content .products-list .product span{
+                display: block;
+                margin: 5px 0;
+                font-size: 14px;
+            }
+            .content .products-list .product > *{
+                margin: 5px 0;
+                color: #1d2d54;
+                font-size: 17px;
+            }
+            .content .products-list .product .p-seperate{
+                width: 100%;
+                height: 4px;
+                background-color: #1d2d54;
+            }
+            .content .products-list .product .p-price{
+                font-weight: bold;
+                text-align: right;
+                margin-top: 15px;
+            }

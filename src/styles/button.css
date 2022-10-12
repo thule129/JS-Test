@@ -1,0 +1,21 @@
+.button {
+    padding: 0px 40px;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    width: fit-content;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* margin-left: 16px; */
+    cursor: pointer;
+    border: none;
+}
+.button.blue{
+    background-color: #1d2c53;
+    color: #fff
+}
+.button.blue:hover{
+    background-color: #304476;
+}
